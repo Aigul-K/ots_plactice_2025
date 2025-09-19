@@ -10,7 +10,7 @@ def get_system_info():
     system_info = {
         "student_name": "Каримуллина Айгуль Айратовна",
         "academic_group": "ИВТИИбд-11",
-        "github_link": "https://github.com/ivanov_ivan"
+        "github_link": "https://github.com/Aigul-K"
     }
     return system_info
 
