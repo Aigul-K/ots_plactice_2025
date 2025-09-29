@@ -1,0 +1,95 @@
+import turtle
+
+
+def perform_switch_case(state, t, turn, width, height, max_turns):
+    x = round(t.position()[0] / 10)
+    y = round(t.position()[1] / 10)
+
+    # Определяем границы движения
+    right_bound = width // 2
+    left_bound = -width // 2
+    top_bound = height // 2
+    bottom_bound = -height // 2
+
+    if state == "RIGHT":
+        t.forward(10)
+
+        if x >= right_bound:
+            # Проверяем, не последний ли это спуск
+            if turn >= max_turns:
+                state = "STOP"
+            else:
+                state = "DOWN_LEFT"
+                t.setheading(270)  # Разворот вниз
+            return state, turn
+        return state, turn
+
+    if state == "LEFT":
+        t.forward(10)
+
+        if x <= left_bound:
+            # Проверяем, не последний ли это спуск
+            if turn >= max_turns:
+                state = "STOP"
+            else:
+                state = "DOWN_RIGHT"
+                t.setheading(270)  # Разворот вниз
+            return state, turn
+        return state, turn
+
+    if state == "DOWN_LEFT":
+        t.forward(10)
+
+        if y <= top_bound - turn * 5:  # Спускаемся на один уровень
+            state = "LEFT"
+            t.setheading(180)  # Разворот влево
+            turn += 1  # Увеличиваем уровень
+            return state, turn
+        return state, turn
+
+    if state == "DOWN_RIGHT":
+        t.forward(10)
+
+        if y <= top_bound - turn * 5:  # Спускаемся на один уровень
+            state = "RIGHT"
+            t.setheading(0)  # Разворот вправо
+            turn += 1  # Увеличиваем уровень
+            return state, turn
+        return state, turn
+
+    if state == "INIT":
+        # Начинаем в правом верхнем углу
+        t.penup()
+        t.goto(right_bound * 10, top_bound * 10)
+        t.pendown()
+        t.setheading(180)  # Смотрим налево
+        state = "LEFT"
+        return state, turn
+
+    if state == "STOP":
+        return state, turn
+
+    return state, turn
+
+
+def draw():
+    start_state = "INIT"
+    end_state = "STOP"
+    curr_state = start_state
+    t = turtle.Turtle()
+    t.speed(0)
+    turn = 1
+
+    # Размеры области рисования
+    width = 30  # ширина в шагах
+    height = 10 # высота в шагах
+
+    max_turns = height // 2 # Максимальное количество зигзагов
+
+    while curr_state != end_state:
+        curr_state, turn = perform_switch_case(curr_state, t, turn, width, height, max_turns)
+
+    turtle.done()
+
+if __name__ == "__main__":
+    draw()
