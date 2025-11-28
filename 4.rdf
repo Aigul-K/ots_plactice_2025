@@ -1,0 +1,303 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16/"
+     xml:base="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-16="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#assumesInteractionWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#assumesInteractionWith"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#hasState -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#hasState"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#isReasonFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#isReasonFor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#materializedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#materializedIn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#precedes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#precedes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#triggers -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#triggers"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#codename -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#codename"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#name"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Action"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Interface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Interface"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Reason -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Reason"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Step -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Step"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#User -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#User"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Action_Click_ConfirmButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Action_Click_ConfirmButton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Action_Click_LoginButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Action_Click_LoginButton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Action"/>
+        <untitled-ontology-16:assumesInteractionWith rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Button_Login"/>
+        <untitled-ontology-16:triggers rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#event_login_click"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Action_Input_PhoneNumber -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Action_Input_PhoneNumber">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Action"/>
+        <untitled-ontology-16:assumesInteractionWith rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#InputField_Phone"/>
+        <untitled-ontology-16:triggers rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#event_phone_input"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Action_Input_SMSCode -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Action_Input_SMSCode">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Action"/>
+        <untitled-ontology-16:assumesInteractionWith rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#InputField_SMS"/>
+        <untitled-ontology-16:triggers rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#event_sms_input"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Button_Confirm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Button_Confirm">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Interface"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Button_Login -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Button_Login">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Interface"/>
+        <owl:topDataProperty>&quot;Login Button&quot;</owl:topDataProperty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#InputField_Phone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#InputField_Phone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Interface"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#InputField_SMS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#InputField_SMS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Interface"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Reason_NeedToMakeFirstOrder -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Reason_NeedToMakeFirstOrder">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Reason"/>
+        <untitled-ontology-16:isReasonFor rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Step_StartRegistration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Step_FinishRegistration -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Step_FinishRegistration">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Step"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Step_InputPhone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Step_InputPhone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Step"/>
+        <untitled-ontology-16:materializedIn rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Action_Input_PhoneNumber"/>
+        <untitled-ontology-16:precedes rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Step_InputSMS"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Step_InputSMS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Step_InputSMS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Step"/>
+        <untitled-ontology-16:materializedIn rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Action_Input_SMSCode"/>
+        <untitled-ontology-16:precedes rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Step_FinishRegistration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Step_StartRegistration -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Step_StartRegistration">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Step"/>
+        <untitled-ontology-16:materializedIn rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Action_Click_LoginButton"/>
+        <untitled-ontology-16:precedes rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Step_InputPhone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#User_KazanExpress -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#User_KazanExpress">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#User"/>
+        <untitled-ontology-16:hasState rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Reason_NeedToMakeFirstOrder"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#event_confirm_click -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#event_confirm_click">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#event_login_click -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#event_login_click">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#event_phone_input -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#event_phone_input">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#event_sms_input -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#event_sms_input">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/untitled-ontology-16#Event"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
